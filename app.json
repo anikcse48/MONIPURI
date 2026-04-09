@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "MonipuriShoili",
+    "name": "মণিপুরী শৈলী ",
     "slug": "MonipuriShoili",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/plogo.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/plogo.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/plogo.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anikcse.MonipuriShoili"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/plogo.jpg"
+    },
+    "plugins": [
+      "expo-asset",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fbe694e1-5081-49a4-be86-4a385f3a0736"
+      }
     }
   }
 }
